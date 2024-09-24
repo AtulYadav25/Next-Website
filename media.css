@@ -1,0 +1,192 @@
+@media(max-width:900px) {
+
+    /* ------------------------------Styling Home Section *----------------------------- */
+    .header_txt #heroHead {
+        font-size: 3rem !important;
+    }
+
+    .hero-section .heroImg {
+        width: 80%;
+    }
+
+    #data div h1 {
+        font-size: 2.5em !important;
+    }
+
+
+
+}
+
+@media(max-width:800px) {
+
+    .header{
+        height: auto;
+    }
+
+    #data div:nth-child(4) {
+        padding: 10px;
+    }
+
+}
+
+@media(max-width:750px) {
+    #humburger {
+        display: flex;
+    }
+
+    .cursor{
+        display: none !important;
+    }
+
+    #navbar ul {
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 99;
+        width: 100%;
+        height: 100vh;
+        padding: 20px 8%;
+        text-align: center;
+        padding-top: 80px;
+        box-sizing: border-box;
+        background-color: var(--main-bg);
+        transition: .3s;
+    }
+
+    #closeMenu {
+        display: flex;
+    }
+
+    #navul.activated {
+        right: 0%;
+    }
+
+    #navbar ul li {
+        width: fit-content;
+        margin: 12px auto;
+    }
+
+    #navbar ul li a {
+        color: white;
+        font-weight: 500;
+        font-size: 1rem;
+    }
+
+    #navbar ul span {
+        color: white;
+        position: absolute;
+        top: 25px;
+        right: 22px;
+        font-size: 40px;
+
+    }
+
+    .header {
+        align-items: start;
+        flex-direction: column;
+    }
+
+    .header_txt {
+        margin-top: 30px;
+        width: 90% !important;
+
+    }
+
+    .header_txt #heroHead {
+        line-height: normal;
+        font-size: 2.2em !important;
+        padding-top: 100px;
+    }
+
+    .header_txt .playButton {
+        max-width: 180px;
+        margin-top: 30px;
+    }
+
+    .parallaxDiv img {
+        width: 130%;
+    }
+
+    .playButton img {
+        width: 35px;
+    }
+
+    .playButton p {
+        font-size: 16px;
+    }
+
+    .absoluteHero{
+        height: 60vh;
+    }
+
+    .absoluteHero h1{
+        top: 30%;
+        left: 20%;
+    }
+    #ScrollMeDown {
+        left: 80%;
+    }
+
+
+    #data {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, auto);
+    }
+
+
+    #data div h1,
+    .aboutBox h1,
+    #services h1,
+    .testimonials h1 {
+        font-size: 2.2em !important;
+    }
+
+    #data div {
+        padding: 0;
+        margin: 25px 0;
+    }
+
+    #data canvas {
+        width: 100%;
+        height: 100%;
+    }
+
+    #data div:nth-child(1) {
+        grid-column: 1 / 1;
+        grid-row: 1 / 1;
+    }
+
+    #data div:nth-child(2) {
+        grid-column: 1 / 1;
+        grid-row: 2 / 2;
+        padding: 20px;
+    }
+
+    #data div:nth-child(3) {
+        grid-column: 1 / 1;
+        grid-row: 3 / 3;
+    }
+
+    #data div:nth-child(4) {
+        grid-column: 1 / 1;
+        grid-row: 4 / 4;
+    }
+
+    #footer {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, auto);
+    }
+
+}
+
+@media(max-width:560px) {
+    #contact form{
+        padding: 50px;
+        width: 100%;
+    }
+
+    #contact .inputBox{
+        width: 100%;
+    }
+}

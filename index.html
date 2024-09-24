@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEXT</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
+    <link rel="stylesheet" href="./source/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./media.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <h1>NEXT</h1>
+        <ul id="navul">
+            <li><a class="hoverElement" href="#home" onclick="handleNavUl()"> Home</a></li>
+            <li><a class="hoverElement" href="#about"  onclick="handleNavUl()">About</a></li>
+            <li><a class="hoverElement" href="#services"  onclick="handleNavUl()">Services</a></li>
+            <li><a class="hoverElement" href="#data"  onclick="handleNavUl()">Data</a></li>
+            <li><a class="hoverElement" href="#clients"  onclick="handleNavUl()">Clients</a></li>
+            <span class="material-symbols-outlined" id="closeMenu">
+                close
+            </span>
+        </ul>
+        <div class="hoverElement" id="humburger">
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+    <section class="header" id="home">
+        <div class="parallaxDiv">
+            <img src="./assets/home_4.png" alt="Parllax" class="revealElements ParallaxImgs">
+            <img src="./assets/home_3.png" alt="Parllax" class="revealElements ParallaxImgs">
+            <img src="./assets/home_2.png" alt="Parllax" class="revealElements ParallaxImgs">
+            <img src="./assets/home_1.png" alt="Parllax" class="revealElements ParallaxImgs">
+        </div>
+        <div class="header_txt">
+            <h1 id="heroHead" class="revealElements">Everything you need to start and run your Business</h1>
+            <div class="playButton hoverElement revealElements">
+                <img src="./assets/play.png" alt="Play Button">
+                <p>View Demos <br>and Highlights</p>
+            </div>
+        </div>
+        <div class="header_txt absoluteHero ">
+            <div>
+                <h1 id="nextHero" class="revealElements">NEXT</h1>
+            </div>
+            <div class="absoluteTxt revealElements">
+                <h2>The ideas that improve your product</h2>
+                <p>Be among the first founders to experience the easiest way to start & run a business.</p>
+                <span class="headerProfiles">
+                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="portrait" style="--i:1">
+                    <img src="https://images.pexels.com/photos/5477855/pexels-photo-5477855.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        alt="portrait" style="--i:2">
+                    <img src="https://images.pexels.com/photos/1466039/pexels-photo-1466039.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+                        alt="portrait" style="--i:3">
+                    <img src="https://images.pexels.com/photos/1520760/pexels-photo-1520760.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        alt="portrait" style="--i:4">
+                    <div class="additionalCount">
+                        +2
+                    </div>
+                </span>
+            </div>
+        </div>
+        <a href="#about" id="ScrollMeDown" >
+            <span class="material-symbols-outlined hoverElement" >
+                south
+            </span>
+        </a>
+    </section>
+    <section class="neonContainer">
+        <div class="neon_div hoverElement revealElements" style="--color:#ff9cc0">
+            <h1>Project Management Tool Design</h1>
+            <span class="material-symbols-outlined">
+                north_east
+            </span>
+        </div>
+        <div class="neon_div hoverElement revealElements" style="--color:#2b6dcb">
+            <h1>Food Delivery Mobile App</h1>
+            <span class="material-symbols-outlined">
+                north_east
+            </span>
+        </div>
+        <div class="neon_div hoverElement revealElements" style="--color:#ac9f73">
+            <h1>Business Management Dashboard</h1>
+            <span class="material-symbols-outlined">
+                north_east
+            </span>
+        </div>
+        <div class="neon_div hoverElement revealElements" style="--color:#8c3fc9">
+            <h1>The Leading Customer Data Platform</h1>
+            <span class="material-symbols-outlined">
+                north_east
+            </span>
+        </div>
+    </section>
+    <section id="about">
+        <div class="aboutBox about_txt">
+            <h1 class="revealElements">Empowering Your Vision to Achieve Business <span style="color: #1E90FF;">Excellence</span></h1>
+            <p id="about_p"></p>
+        </div>
+        <div class="aboutBox about_txt revealElements">
+            <h3>What we offer to Empower Your Business?</h3>
+            <ul>
+                <li class="revealElements"> <span class="material-symbols-outlined">
+                        north_east
+                    </span>Expert Guidance</li>
+                <li class="revealElements"> <span class="material-symbols-outlined">
+                        north_east
+                    </span>Business Analyst</li>
+                <li class="revealElements"> <span class="material-symbols-outlined">
+                        north_east
+                    </span>Innovative Solutions</li>
+            </ul>
+        </div>
+        <div class="aboutBox aboutImgBox">
+            <object type="image/svg+xml" data="./assets/Graph-Anim2.svg" id="animatedGraph"
+                class="hoverElement"></object>
+        </div>
+    </section>
+    <section id="services" class="revealElements">
+        <h1>Our Services</h1>
+        <div class="serviceContainer">
+            <div class="serviceBox  revealElements">
+                <div>
+                    <h2>Product Development</h2>
+                    <p>Create a Minimum Viable Product (MVP) to quickly test market viability. Conduct (UX) design to
+                        ensure the product meets customer needs.</p>
+                </div>
+                <div>
+                    <span class="material-symbols-outlined serviceBtn1">
+                        inventory_2
+                    </span>
+                    <button>
+                        Explore More <span class="material-symbols-outlined">
+                            trending_up
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <div class="serviceBox  revealElements">
+                <div>
+                    <h2>Funding & Investment</h2>
+                    <p>Secure venture capital and angel investments with compelling pitch decks to fuel and sustain
+                        business growth.</p>
+                </div>
+                <div>
+                    <span class="material-symbols-outlined serviceBtn1">
+                        payments
+                    </span>
+                    <button>
+                        Explore More <span class="material-symbols-outlined">
+                            trending_up
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <div class="serviceBox  revealElements">
+                <div>
+
+                    <h2>Digital Transformation</h2>
+                    <p>Seamlessly integrate advanced technology into business operations and implement robust e-commerce
+                        solutions to reach a broader audience.</p>
+                </div>
+                <div>
+                    <span class="material-symbols-outlined serviceBtn1">
+                        memory
+                    </span>
+                    <button>
+                        Explore More <span class="material-symbols-outlined">
+                            trending_up
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <div class="serviceBox revealElements">
+                <div>
+
+                    <h2>Customer Experience</h2>
+                    <p>Map out the customer journey to enhance user satisfaction at every touchpoint. Design intuitive
+                        user interfaces (UI) to provide a seamless experience.</p>
+                </div>
+                <div>
+                    <span class="material-symbols-outlined serviceBtn1">
+                        chat
+                    </span>
+                    <button>
+                        Explore More <span class="material-symbols-outlined">
+                            trending_up
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <div class="serviceBox revealElements">
+                <div>
+
+                    <h2>Compliance & Risk Management</h2>
+                    <p>Ensure regulatory compliance across all operations, proactively assessing and mitigating
+                        potential risks to safeguard the business.</p>
+                </div>
+                <div>
+                    <span class="material-symbols-outlined serviceBtn1">
+                        lock
+                    </span>
+                    <button>
+                        Explore More <span class="material-symbols-outlined">
+                            trending_up
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <div class="serviceBox revealElements">
+                <div>
+
+                    <h2>Global Expansion</h2>
+                    <p>Formulate strategic market entry plans for international expansion, ensuring cross-border
+                        compliance and effective localization for success.</p>
+                </div>
+                <div>
+                    <span class="material-symbols-outlined serviceBtn1">
+                        public
+                    </span>
+                    <button>
+                        Explore More <span class="material-symbols-outlined">
+                            trending_up
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="data">
+        <div>
+            <h1 class="revealElements">Transform Your Data into <span style="color: #1E90FF;">Actionable Insights</span></h1>
+            <p class="revealElements">Leverage advanced data analytics to uncover actionable insights and drive informed decision-making.
+                Transform raw data into strategic assets that fuel your business growth.</p>
+        </div>
+        <div class="revealElements">
+            <span class="circle"><span></span> Total Income</span>
+            <h2>$<span id="counter"></span>+</h2>
+            <p>+6.7% From Last Month</p>
+        </div>
+        <div class="revealElements">
+            <canvas id="doughnut"></canvas>
+        </div>
+        <div class="revealElements">
+            <canvas id="barGraph"></canvas>
+        </div>
+    </section>
+    <section id="clients" class="testimonials revealElements">
+        <h1>Look What our Clients say about us</h1>
+        <div class="slide-container swiper">
+            <div class="slide-content">
+                <div class="card-wrapper swiper-wrapper">
+                    <div class="card swiper-slide">
+                        <img src="./assets/quote.svg" class="quotesImg" alt="">
+                        <div class="image-content">
+                            <div class="card-image">
+                                <img src="./assets/portrait1.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">Alanda Zara</h2>
+                            <span>Hong Kong, Japan</span>
+                            <p class="description">NEXT provided invaluable advice and support. Their expertise in
+                                business strategy and execution is unparalleled. A must-have partner for any growing
+                                business.</p>
+                            <button class="button">View More</button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <img src="./assets/quote.svg" class="quotesImg" alt="">
+                        <div class="image-content">
+                            <div class="card-image">
+                                <img src="./assets/portrait2.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">Dr Smriti Irani</h2>
+                            <span>Bhopal, Madhya Pradesh</span>
+                            <p class="description">The team at NEXT is exceptional! Their guidance and innovative
+                                solutions helped us navigate the complexities of scaling our startup.</p>
+                            <button class="button">View More</button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <img src="./assets/quote.svg" class="quotesImg" alt="">
+                        <div class="image-content">
+                            <div class="card-image">
+                                <img src="./assets/portrait5.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">Alex Maxwell</h2>
+                            <span>Noida, Delhi</span>
+                            <p class="description">NEXT's tailored approach and deep understanding of startup challenges
+                                made all the difference. They helped us streamline operations and boost our growth.</p>
+                            <button class="button">View More</button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <img src="./assets/quote.svg" class="quotesImg" alt="">
+                        <div class="image-content">
+                            <div class="card-image">
+                                <img src="./assets/portrait4.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">Dr Kelvin Elfa</h2>
+                            <span>Mumbai, India</span>
+                            <p class="description">Working with NEXT was a game-changer for our startup. Their strategic
+                                insights and hands-on support drove our success. Highly efficient and effective!</p>
+                            <button class="button">View More</button>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <section id="contact" class="revealElements">
+        <h1>Contact Us</h1>
+        <span class="background_obj" style="top:10%;left: 15%">
+            <span class="material-symbols-outlined">
+                map
+            </span>
+        </span>
+        <span class="background_obj" style="top:80%;left: 68%">
+            <span class="material-symbols-outlined">
+                mail
+            </span>
+        </span>
+        <span class="background_obj" style="top:70%;left: 10%;filter: blur(2px);">
+            <span class="material-symbols-outlined">
+                tenancy
+            </span>
+        </span>
+        <span class="background_obj" style="top:20%;left: 85%">
+            <span class="material-symbols-outlined">
+                attach_money
+            </span>
+        </span>
+        <span class="background_obj" style="top:60%;left: 25%;width: 80px;height: 80px;">
+            <span class="material-symbols-outlined" style="font-size: 24px;">
+                trending_up
+            </span>
+        </span>
+        <p>We're here to help you with any questions or support you need. Reach out to us and we'll respond as soon as
+            possible.</p>
+        <div class="contactDiv">
+            <form id="contactForm">
+                <h2>Send Message</h2>
+                <div class="inputBox">
+                    <input type="text" required  name="user_name">
+                    <span>Your Name</span>
+                </div>
+                <div class="inputBox">
+                    <input type="text" required name="user_email">
+                    <span>Email Address</span>
+                </div>
+                <div class="inputBox messageInput">
+                    <textarea name="message" id="message" name="user_message"></textarea>
+                    <span>Your Message</span>
+                </div>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+    <section id="footer">
+        <div>
+            <h1>NEXT</h1>
+            <p>NEXT's mission is to provide the tools, insights, and support necessary for your success. With a focus on
+                innovation and growth, we partner with you to navigate the challenges of entrepreneurship and build a
+                thriving business.</p>
+        </div>
+        <ul>
+            <li><a class="hoverElement" href="#home">Home</a></li>
+            <li><a class="hoverElement" href="#about">About</a></li>
+            <li><a class="hoverElement" href="#services">Services</a></li>
+            <li><a class="hoverElement" href="#data">Data</a></li>
+            <li><a class="hoverElement" href="#clients">Clients</a></li>
+        </ul>
+        <div>
+            <h2>Subscribe Our Newsletters</h2>
+            <input type="text" placeholder="Enter Your Email ID">
+            <button class="hoverElement">SUBSCRIBE</button>
+        </div>
+    </section>
+    <div class="cursor"></div>
+    <div class="alertBox" id="alertBox">
+        <p id="alertMessage"></p>
+    </div>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./source/swiper-bundle.min.js"></script>
+    <script src="./chart.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
